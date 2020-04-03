@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+li{list-style: none;}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url(fabian-grohs-PuxTq4DwUHE-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    opacity: .8;
+   
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: skyblue;
+    top: 8px;
+    opacity: .8; 
+    
+}
+.nav-item a{
+    color: navy;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.navbar-brand  {
+    color:navy;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+.header-section{
+    width: 100%;
+    margin-top: 200px;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.center-div h3{
+    font-size: 14px;
+    font-family: 'open-sans',sans-serif;
+    font-weight: bold;
+    color:white;
+}
+.center-div h1{
+    font-size: 40px;
+    font-family: 'open-sans',sans-serif;
+    margin: 15px 0px;
+    font-weight: bold;
+    color:black;
+}
+.header-button a{
+    border: 1px solid white;
+    border-radius: 100px;
+    margin:40px 5px;
+    padding: 12px 30px;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+}
+.header-button a:hover{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 skyblue;
+    
+    
+}
+.names{
+    margin-left: 300px;
+}
+.container{
+    color: skyblue;    
+}
